@@ -1,0 +1,940 @@
+2021-06-22 20:03:42,829 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext 588 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@687e99d8: startup date [Tue Jun 22 20:03:42 CST 2021]; root of context hierarchy
+2021-06-22 20:03:42,934 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:03:42,951 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5753dadb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:03:43,315 [main] INFO  com.example.ProviderApplication 654 - No active profile set, falling back to default profiles: default
+2021-06-22 20:03:43,322 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c0d9d86: startup date [Tue Jun 22 20:03:43 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@687e99d8
+2021-06-22 20:03:43,810 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 172 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-22 20:03:43,921 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 821 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2021-06-22 20:03:43,991 [main] INFO  o.s.cloud.context.scope.GenericScope 294 - BeanFactory id=a554488d-2787-36c4-ac6c-a221258a30fc
+2021-06-22 20:03:44,001 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:03:44,074 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3b39d7de] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:03:44,160 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$5753dadb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:03:44,464 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8010 (http)
+2021-06-22 20:03:44,472 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8010"]
+2021-06-22 20:03:44,480 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2021-06-22 20:03:44,480 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.35
+2021-06-22 20:03:44,483 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;";E:\mysql-5.7.19-winx64\bin";E:\maven\apache-maven-3.8.1\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;"E:\jdk1.8\jdk1.8.0_201\bin;";;.]
+2021-06-22 20:03:44,599 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2021-06-22 20:03:44,599 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 1277 ms
+2021-06-22 20:03:44,655 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 187 - Servlet dispatcherServlet mapped to [/]
+2021-06-22 20:03:44,658 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-06-22 20:03:44,658 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-06-22 20:03:44,658 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-06-22 20:03:44,658 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'requestContextFilter' to: [/*]
+2021-06-22 20:03:45,469 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.index()
+2021-06-22 20:03:45,470 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.login()
+2021-06-22 20:03:45,470 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.admin()
+2021-06-22 20:03:45,473 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/update],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.update(com.example.com.example.entity.User)
+2021-06-22 20:03:45,473 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/save],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.save(com.example.com.example.entity.User)
+2021-06-22 20:03:45,473 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/deleteById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.deleteById(java.lang.Long)
+2021-06-22 20:03:45,473 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findAll],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findAll(java.lang.Integer,java.lang.Integer)
+2021-06-22 20:03:45,474 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findById(java.lang.Long)
+2021-06-22 20:03:45,474 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v3/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.oas.web.OpenApiControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:03:45,477 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/ui],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2021-06-22 20:03:45,478 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2021-06-22 20:03:45,478 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/security],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2021-06-22 20:03:45,479 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:03:45,480 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-06-22 20:03:45,481 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-06-22 20:03:45,640 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:03:45,640 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:03:45,642 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:03:45,643 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:03:45,709 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:03:45,861 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6c0d9d86: startup date [Tue Jun 22 20:03:43 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@687e99d8
+2021-06-22 20:03:45,886 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2021-06-22 20:03:45,897 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:03:45,897 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:03:45,897 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:03:47,078 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2021-06-22 20:03:47,079 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-06-22 20:03:47,084 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-06-22 20:03:47,085 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-06-22 20:03:47,086 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-06-22 20:03:47,088 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-06-22 20:03:47,095 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-06-22 20:03:47,101 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=6c0d9d86,type=ConfigurationPropertiesRebinder]
+2021-06-22 20:03:47,104 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-06-22 20:03:47,109 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 0
+2021-06-22 20:03:47,116 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory 71 - Setting initial instance status as: STARTING
+2021-06-22 20:03:47,134 [main] INFO  c.netflix.discovery.DiscoveryClient 349 - Initializing Eureka in region us-east-1
+2021-06-22 20:03:47,447 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson
+2021-06-22 20:03:47,448 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson
+2021-06-22 20:03:47,505 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml
+2021-06-22 20:03:47,505 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml
+2021-06-22 20:03:47,594 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:03:47,792 [main] INFO  c.netflix.discovery.DiscoveryClient 958 - Disable delta property : false
+2021-06-22 20:03:47,793 [main] INFO  c.netflix.discovery.DiscoveryClient 959 - Single vip registry refresh property : null
+2021-06-22 20:03:47,793 [main] INFO  c.netflix.discovery.DiscoveryClient 960 - Force full registry fetch : false
+2021-06-22 20:03:47,793 [main] INFO  c.netflix.discovery.DiscoveryClient 961 - Application is null : false
+2021-06-22 20:03:47,793 [main] INFO  c.netflix.discovery.DiscoveryClient 962 - Registered Applications size is zero : true
+2021-06-22 20:03:47,793 [main] INFO  c.netflix.discovery.DiscoveryClient 964 - Application version is -1: true
+2021-06-22 20:03:47,793 [main] INFO  c.netflix.discovery.DiscoveryClient 1047 - Getting all instance registry info from the eureka server
+2021-06-22 20:03:47,878 [main] INFO  c.netflix.discovery.DiscoveryClient 1056 - The response status is 200
+2021-06-22 20:03:47,879 [main] INFO  c.netflix.discovery.DiscoveryClient 1264 - Starting heartbeat executor: renew interval is: 30
+2021-06-22 20:03:47,880 [main] INFO  c.n.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-22 20:03:47,882 [main] INFO  c.netflix.discovery.DiscoveryClient 449 - Discovery Client initialized at timestamp 1624363427882 with initial instances count: 0
+2021-06-22 20:03:47,889 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry 42 - Registering application PROVIDER with eureka with status UP
+2021-06-22 20:03:47,889 [main] INFO  c.netflix.discovery.DiscoveryClient 1299 - Saw local status change event StatusChangeEvent [timestamp=1624363427889, current=UP, previous=STARTING]
+2021-06-22 20:03:47,891 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 826 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8010: registering service...
+2021-06-22 20:03:47,894 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 2147483647
+2021-06-22 20:03:47,944 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 835 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8010 - registration status: 204
+2021-06-22 20:03:48,131 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,141 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,141 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,144 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,153 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,153 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,153 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,156 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,156 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,157 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:03:48,167 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8010"]
+2021-06-22 20:03:48,173 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2021-06-22 20:03:48,181 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8010 (http) with context path ''
+2021-06-22 20:03:48,182 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration 124 - Updating port to 8010
+2021-06-22 20:03:48,183 [main] INFO  com.example.ProviderApplication 59 - Started ProviderApplication in 5.957 seconds (JVM running for 6.815)
+2021-06-22 20:04:17,881 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient 958 - Disable delta property : false
+2021-06-22 20:04:17,882 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient 959 - Single vip registry refresh property : null
+2021-06-22 20:04:17,883 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient 960 - Force full registry fetch : false
+2021-06-22 20:04:17,883 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient 961 - Application is null : false
+2021-06-22 20:04:17,884 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient 962 - Registered Applications size is zero : true
+2021-06-22 20:04:17,884 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient 964 - Application version is -1: false
+2021-06-22 20:04:17,884 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient 1047 - Getting all instance registry info from the eureka server
+2021-06-22 20:04:17,961 [DiscoveryClient-CacheRefreshExecutor-0] INFO  c.netflix.discovery.DiscoveryClient 1056 - The response status is 200
+2021-06-22 20:08:47,795 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:13:47,798 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:16:38,434 [http-nio-8010-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-06-22 20:16:38,434 [http-nio-8010-exec-1] INFO  o.s.web.servlet.DispatcherServlet 497 - FrameworkServlet 'dispatcherServlet': initialization started
+2021-06-22 20:16:38,457 [http-nio-8010-exec-1] INFO  o.s.web.servlet.DispatcherServlet 512 - FrameworkServlet 'dispatcherServlet': initialization completed in 22 ms
+2021-06-22 20:17:00,033 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:17:00,066 [http-nio-8010-exec-3] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2021-06-22 20:17:00,187 [http-nio-8010-exec-3] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2021-06-22 20:17:00,211 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:17:00,212 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:18:27,582 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext 588 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@bccb269: startup date [Tue Jun 22 20:18:27 CST 2021]; root of context hierarchy
+2021-06-22 20:18:27,703 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:18:27,721 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$70c6e731] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:18:28,121 [main] INFO  com.example.ProviderApplication2 654 - No active profile set, falling back to default profiles: default
+2021-06-22 20:18:28,127 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a4621bd: startup date [Tue Jun 22 20:18:28 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@bccb269
+2021-06-22 20:18:28,618 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 172 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-22 20:18:28,726 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 821 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2021-06-22 20:18:28,801 [main] INFO  o.s.cloud.context.scope.GenericScope 294 - BeanFactory id=2a3deb80-2e00-38ff-9fb6-742247023514
+2021-06-22 20:18:28,812 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:18:28,889 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$54ace434] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:18:28,969 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$70c6e731] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:18:29,332 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8011 (http)
+2021-06-22 20:18:29,341 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8011"]
+2021-06-22 20:18:29,350 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2021-06-22 20:18:29,351 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.35
+2021-06-22 20:18:29,354 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;";E:\mysql-5.7.19-winx64\bin";E:\maven\apache-maven-3.8.1\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;"E:\jdk1.8\jdk1.8.0_201\bin;";;.]
+2021-06-22 20:18:29,454 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2021-06-22 20:18:29,454 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 1327 ms
+2021-06-22 20:18:29,515 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 187 - Servlet dispatcherServlet mapped to [/]
+2021-06-22 20:18:29,519 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-06-22 20:18:29,519 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-06-22 20:18:29,519 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-06-22 20:18:29,519 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'requestContextFilter' to: [/*]
+2021-06-22 20:18:30,263 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.index()
+2021-06-22 20:18:30,263 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.login()
+2021-06-22 20:18:30,264 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.admin()
+2021-06-22 20:18:30,267 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/update],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.update(com.example.com.example.entity.User)
+2021-06-22 20:18:30,267 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/save],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.save(com.example.com.example.entity.User)
+2021-06-22 20:18:30,268 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/deleteById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.deleteById(java.lang.Long)
+2021-06-22 20:18:30,268 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findById(java.lang.Long)
+2021-06-22 20:18:30,268 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findAll],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findAll(java.lang.Integer,java.lang.Integer)
+2021-06-22 20:18:30,269 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v3/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.oas.web.OpenApiControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:18:30,272 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/security],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2021-06-22 20:18:30,273 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2021-06-22 20:18:30,273 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/ui],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2021-06-22 20:18:30,274 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:18:30,275 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-06-22 20:18:30,276 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-06-22 20:18:30,436 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:18:30,437 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:18:30,439 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:18:30,439 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:18:30,503 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:18:30,655 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3a4621bd: startup date [Tue Jun 22 20:18:28 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@bccb269
+2021-06-22 20:18:30,683 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2021-06-22 20:18:30,694 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:18:30,694 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:18:30,694 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:18:31,870 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2021-06-22 20:18:31,872 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-06-22 20:18:31,877 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-06-22 20:18:31,878 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-06-22 20:18:31,878 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-06-22 20:18:31,880 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-06-22 20:18:31,888 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-06-22 20:18:31,894 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=3a4621bd,type=ConfigurationPropertiesRebinder]
+2021-06-22 20:18:31,897 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-06-22 20:18:31,902 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 0
+2021-06-22 20:18:31,911 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory 71 - Setting initial instance status as: STARTING
+2021-06-22 20:18:31,930 [main] INFO  c.netflix.discovery.DiscoveryClient 349 - Initializing Eureka in region us-east-1
+2021-06-22 20:18:32,255 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson
+2021-06-22 20:18:32,256 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson
+2021-06-22 20:18:32,316 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml
+2021-06-22 20:18:32,317 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml
+2021-06-22 20:18:32,412 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:18:32,596 [main] INFO  c.netflix.discovery.DiscoveryClient 958 - Disable delta property : false
+2021-06-22 20:18:32,596 [main] INFO  c.netflix.discovery.DiscoveryClient 959 - Single vip registry refresh property : null
+2021-06-22 20:18:32,597 [main] INFO  c.netflix.discovery.DiscoveryClient 960 - Force full registry fetch : false
+2021-06-22 20:18:32,597 [main] INFO  c.netflix.discovery.DiscoveryClient 961 - Application is null : false
+2021-06-22 20:18:32,597 [main] INFO  c.netflix.discovery.DiscoveryClient 962 - Registered Applications size is zero : true
+2021-06-22 20:18:32,597 [main] INFO  c.netflix.discovery.DiscoveryClient 964 - Application version is -1: true
+2021-06-22 20:18:32,597 [main] INFO  c.netflix.discovery.DiscoveryClient 1047 - Getting all instance registry info from the eureka server
+2021-06-22 20:18:32,683 [main] INFO  c.netflix.discovery.DiscoveryClient 1056 - The response status is 200
+2021-06-22 20:18:32,685 [main] INFO  c.netflix.discovery.DiscoveryClient 1264 - Starting heartbeat executor: renew interval is: 30
+2021-06-22 20:18:32,687 [main] INFO  c.n.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-22 20:18:32,689 [main] INFO  c.netflix.discovery.DiscoveryClient 449 - Discovery Client initialized at timestamp 1624364312689 with initial instances count: 3
+2021-06-22 20:18:32,695 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry 42 - Registering application PROVIDER with eureka with status UP
+2021-06-22 20:18:32,696 [main] INFO  c.netflix.discovery.DiscoveryClient 1299 - Saw local status change event StatusChangeEvent [timestamp=1624364312696, current=UP, previous=STARTING]
+2021-06-22 20:18:32,697 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 826 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8011: registering service...
+2021-06-22 20:18:32,700 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 2147483647
+2021-06-22 20:18:32,722 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 835 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8011 - registration status: 204
+2021-06-22 20:18:32,960 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,967 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,968 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,970 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,979 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,980 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,980 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,983 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,984 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,984 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:18:32,995 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8011"]
+2021-06-22 20:18:33,001 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2021-06-22 20:18:33,010 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8011 (http) with context path ''
+2021-06-22 20:18:33,011 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration 124 - Updating port to 8011
+2021-06-22 20:18:33,013 [main] INFO  com.example.ProviderApplication2 59 - Started ProviderApplication2 in 6.087 seconds (JVM running for 7.068)
+2021-06-22 20:18:47,333 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:18:47,337 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:18:47,337 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:18:47,799 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:18:55,033 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:18:55,035 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:18:55,035 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:19:01,102 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:19:01,104 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:19:01,105 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:19:08,431 [http-nio-8010-exec-6] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:19:08,434 [http-nio-8010-exec-6] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:19:08,434 [http-nio-8010-exec-6] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:21:48,235 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext 588 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@f79e: startup date [Tue Jun 22 20:21:48 CST 2021]; root of context hierarchy
+2021-06-22 20:21:48,340 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:21:48,357 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$776b115e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:21:48,735 [main] INFO  com.example.ProviderApplication 654 - No active profile set, falling back to default profiles: default
+2021-06-22 20:21:48,749 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e1ef60: startup date [Tue Jun 22 20:21:48 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@f79e
+2021-06-22 20:21:49,302 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 172 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-22 20:21:49,414 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 821 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2021-06-22 20:21:49,486 [main] INFO  o.s.cloud.context.scope.GenericScope 294 - BeanFactory id=2a3deb80-2e00-38ff-9fb6-742247023514
+2021-06-22 20:21:49,499 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:21:49,580 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5b510e61] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:21:49,666 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$776b115e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:21:49,990 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8010 (http)
+2021-06-22 20:21:49,997 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8010"]
+2021-06-22 20:21:50,006 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2021-06-22 20:21:50,006 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.35
+2021-06-22 20:21:50,008 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;";E:\mysql-5.7.19-winx64\bin";E:\maven\apache-maven-3.8.1\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;"E:\jdk1.8\jdk1.8.0_201\bin;";;.]
+2021-06-22 20:21:50,105 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2021-06-22 20:21:50,106 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 1357 ms
+2021-06-22 20:21:50,164 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 187 - Servlet dispatcherServlet mapped to [/]
+2021-06-22 20:21:50,168 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-06-22 20:21:50,168 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-06-22 20:21:50,168 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-06-22 20:21:50,168 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'requestContextFilter' to: [/*]
+2021-06-22 20:21:50,901 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.index()
+2021-06-22 20:21:50,902 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.admin()
+2021-06-22 20:21:50,902 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.login()
+2021-06-22 20:21:50,905 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/update],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.update(com.example.com.example.entity.User)
+2021-06-22 20:21:50,905 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/save],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.save(com.example.com.example.entity.User)
+2021-06-22 20:21:50,905 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findAll],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findAll(java.lang.Integer,java.lang.Integer)
+2021-06-22 20:21:50,905 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findById(java.lang.Long)
+2021-06-22 20:21:50,906 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/prot],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.prot(java.lang.Integer,java.lang.Integer)
+2021-06-22 20:21:50,906 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/deleteById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.deleteById(java.lang.Long)
+2021-06-22 20:21:50,907 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v3/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.oas.web.OpenApiControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:21:50,909 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2021-06-22 20:21:50,910 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/ui],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2021-06-22 20:21:50,911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/security],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2021-06-22 20:21:50,911 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:21:50,913 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-06-22 20:21:50,914 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-06-22 20:21:51,084 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:21:51,085 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:21:51,088 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:21:51,088 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:21:51,152 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:21:51,299 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@2e1ef60: startup date [Tue Jun 22 20:21:48 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@f79e
+2021-06-22 20:21:51,324 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2021-06-22 20:21:51,335 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:21:51,335 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:21:51,335 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:21:52,558 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2021-06-22 20:21:52,560 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-06-22 20:21:52,565 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-06-22 20:21:52,566 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-06-22 20:21:52,566 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-06-22 20:21:52,568 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-06-22 20:21:52,577 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-06-22 20:21:52,583 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=2e1ef60,type=ConfigurationPropertiesRebinder]
+2021-06-22 20:21:52,587 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-06-22 20:21:52,591 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 0
+2021-06-22 20:21:52,599 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory 71 - Setting initial instance status as: STARTING
+2021-06-22 20:21:52,617 [main] INFO  c.netflix.discovery.DiscoveryClient 349 - Initializing Eureka in region us-east-1
+2021-06-22 20:21:52,932 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson
+2021-06-22 20:21:52,932 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson
+2021-06-22 20:21:52,993 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml
+2021-06-22 20:21:52,994 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml
+2021-06-22 20:21:53,086 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:21:53,260 [main] INFO  c.netflix.discovery.DiscoveryClient 958 - Disable delta property : false
+2021-06-22 20:21:53,260 [main] INFO  c.netflix.discovery.DiscoveryClient 959 - Single vip registry refresh property : null
+2021-06-22 20:21:53,260 [main] INFO  c.netflix.discovery.DiscoveryClient 960 - Force full registry fetch : false
+2021-06-22 20:21:53,260 [main] INFO  c.netflix.discovery.DiscoveryClient 961 - Application is null : false
+2021-06-22 20:21:53,260 [main] INFO  c.netflix.discovery.DiscoveryClient 962 - Registered Applications size is zero : true
+2021-06-22 20:21:53,260 [main] INFO  c.netflix.discovery.DiscoveryClient 964 - Application version is -1: true
+2021-06-22 20:21:53,261 [main] INFO  c.netflix.discovery.DiscoveryClient 1047 - Getting all instance registry info from the eureka server
+2021-06-22 20:21:53,348 [main] INFO  c.netflix.discovery.DiscoveryClient 1056 - The response status is 200
+2021-06-22 20:21:53,350 [main] INFO  c.netflix.discovery.DiscoveryClient 1264 - Starting heartbeat executor: renew interval is: 30
+2021-06-22 20:21:53,351 [main] INFO  c.n.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-22 20:21:53,353 [main] INFO  c.netflix.discovery.DiscoveryClient 449 - Discovery Client initialized at timestamp 1624364513353 with initial instances count: 4
+2021-06-22 20:21:53,360 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry 42 - Registering application PROVIDER with eureka with status UP
+2021-06-22 20:21:53,360 [main] INFO  c.netflix.discovery.DiscoveryClient 1299 - Saw local status change event StatusChangeEvent [timestamp=1624364513360, current=UP, previous=STARTING]
+2021-06-22 20:21:53,362 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 826 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8010: registering service...
+2021-06-22 20:21:53,365 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 2147483647
+2021-06-22 20:21:53,386 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 835 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8010 - registration status: 204
+2021-06-22 20:21:53,596 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,604 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,604 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,607 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,617 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,618 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,618 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,621 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,622 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,622 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:21:53,632 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8010"]
+2021-06-22 20:21:53,638 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2021-06-22 20:21:53,647 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8010 (http) with context path ''
+2021-06-22 20:21:53,647 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration 124 - Updating port to 8010
+2021-06-22 20:21:53,649 [main] INFO  com.example.ProviderApplication 59 - Started ProviderApplication in 6.024 seconds (JVM running for 6.869)
+2021-06-22 20:22:18,863 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext 588 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@77f80c04: startup date [Tue Jun 22 20:22:18 CST 2021]; root of context hierarchy
+2021-06-22 20:22:18,969 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:22:18,986 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$be97ca6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:22:19,384 [main] INFO  com.example.ProviderApplication2 654 - No active profile set, falling back to default profiles: default
+2021-06-22 20:22:19,390 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@47f9738: startup date [Tue Jun 22 20:22:19 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@77f80c04
+2021-06-22 20:22:19,862 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 172 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-22 20:22:19,962 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 821 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2021-06-22 20:22:20,034 [main] INFO  o.s.cloud.context.scope.GenericScope 294 - BeanFactory id=2a3deb80-2e00-38ff-9fb6-742247023514
+2021-06-22 20:22:20,045 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:22:20,115 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a27dc772] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:22:20,192 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$be97ca6f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:22:20,515 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8011 (http)
+2021-06-22 20:22:20,523 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8011"]
+2021-06-22 20:22:20,531 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2021-06-22 20:22:20,532 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.35
+2021-06-22 20:22:20,534 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;";E:\mysql-5.7.19-winx64\bin";E:\maven\apache-maven-3.8.1\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;"E:\jdk1.8\jdk1.8.0_201\bin;";;.]
+2021-06-22 20:22:20,632 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2021-06-22 20:22:20,633 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 1243 ms
+2021-06-22 20:22:20,690 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 187 - Servlet dispatcherServlet mapped to [/]
+2021-06-22 20:22:20,693 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-06-22 20:22:20,694 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-06-22 20:22:20,694 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-06-22 20:22:20,694 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'requestContextFilter' to: [/*]
+2021-06-22 20:22:21,356 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.index()
+2021-06-22 20:22:21,357 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.admin()
+2021-06-22 20:22:21,357 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.login()
+2021-06-22 20:22:21,360 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/update],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.update(com.example.com.example.entity.User)
+2021-06-22 20:22:21,360 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/save],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.save(com.example.com.example.entity.User)
+2021-06-22 20:22:21,361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/prot],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.prot(java.lang.Integer,java.lang.Integer)
+2021-06-22 20:22:21,361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findAll],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findAll(java.lang.Integer,java.lang.Integer)
+2021-06-22 20:22:21,361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findById(java.lang.Long)
+2021-06-22 20:22:21,361 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/deleteById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.deleteById(java.lang.Long)
+2021-06-22 20:22:21,362 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v3/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.oas.web.OpenApiControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:22:21,365 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/ui],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2021-06-22 20:22:21,365 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2021-06-22 20:22:21,366 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/security],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2021-06-22 20:22:21,366 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:22:21,368 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-06-22 20:22:21,369 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-06-22 20:22:21,522 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:22:21,522 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:22:21,525 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:22:21,525 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:22:21,589 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:22:21,738 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@47f9738: startup date [Tue Jun 22 20:22:19 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@77f80c04
+2021-06-22 20:22:21,765 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2021-06-22 20:22:21,777 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:22:21,777 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:22:21,777 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:22:22,933 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2021-06-22 20:22:22,935 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-06-22 20:22:22,940 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-06-22 20:22:22,941 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-06-22 20:22:22,942 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-06-22 20:22:22,944 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-06-22 20:22:22,952 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-06-22 20:22:22,958 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=47f9738,type=ConfigurationPropertiesRebinder]
+2021-06-22 20:22:22,961 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-06-22 20:22:22,965 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 0
+2021-06-22 20:22:22,973 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory 71 - Setting initial instance status as: STARTING
+2021-06-22 20:22:22,991 [main] INFO  c.netflix.discovery.DiscoveryClient 349 - Initializing Eureka in region us-east-1
+2021-06-22 20:22:23,305 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson
+2021-06-22 20:22:23,306 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson
+2021-06-22 20:22:23,367 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml
+2021-06-22 20:22:23,367 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml
+2021-06-22 20:22:23,458 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:22:23,633 [main] INFO  c.netflix.discovery.DiscoveryClient 958 - Disable delta property : false
+2021-06-22 20:22:23,633 [main] INFO  c.netflix.discovery.DiscoveryClient 959 - Single vip registry refresh property : null
+2021-06-22 20:22:23,633 [main] INFO  c.netflix.discovery.DiscoveryClient 960 - Force full registry fetch : false
+2021-06-22 20:22:23,634 [main] INFO  c.netflix.discovery.DiscoveryClient 961 - Application is null : false
+2021-06-22 20:22:23,634 [main] INFO  c.netflix.discovery.DiscoveryClient 962 - Registered Applications size is zero : true
+2021-06-22 20:22:23,634 [main] INFO  c.netflix.discovery.DiscoveryClient 964 - Application version is -1: true
+2021-06-22 20:22:23,634 [main] INFO  c.netflix.discovery.DiscoveryClient 1047 - Getting all instance registry info from the eureka server
+2021-06-22 20:22:23,718 [main] INFO  c.netflix.discovery.DiscoveryClient 1056 - The response status is 200
+2021-06-22 20:22:23,719 [main] INFO  c.netflix.discovery.DiscoveryClient 1264 - Starting heartbeat executor: renew interval is: 30
+2021-06-22 20:22:23,721 [main] INFO  c.n.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-22 20:22:23,723 [main] INFO  c.netflix.discovery.DiscoveryClient 449 - Discovery Client initialized at timestamp 1624364543722 with initial instances count: 4
+2021-06-22 20:22:23,729 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry 42 - Registering application PROVIDER with eureka with status UP
+2021-06-22 20:22:23,730 [main] INFO  c.netflix.discovery.DiscoveryClient 1299 - Saw local status change event StatusChangeEvent [timestamp=1624364543730, current=UP, previous=STARTING]
+2021-06-22 20:22:23,731 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 826 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8011: registering service...
+2021-06-22 20:22:23,734 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 2147483647
+2021-06-22 20:22:23,755 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 835 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8011 - registration status: 204
+2021-06-22 20:22:23,967 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:23,975 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:23,975 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:23,978 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:23,989 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:23,989 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:23,990 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:23,992 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:23,993 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:23,993 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:22:24,004 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8011"]
+2021-06-22 20:22:24,010 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2021-06-22 20:22:24,019 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8011 (http) with context path ''
+2021-06-22 20:22:24,020 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration 124 - Updating port to 8011
+2021-06-22 20:22:24,021 [main] INFO  com.example.ProviderApplication2 59 - Started ProviderApplication2 in 5.77 seconds (JVM running for 6.668)
+2021-06-22 20:23:09,868 [http-nio-8010-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-06-22 20:23:09,868 [http-nio-8010-exec-1] INFO  o.s.web.servlet.DispatcherServlet 497 - FrameworkServlet 'dispatcherServlet': initialization started
+2021-06-22 20:23:09,906 [http-nio-8010-exec-1] INFO  o.s.web.servlet.DispatcherServlet 512 - FrameworkServlet 'dispatcherServlet': initialization completed in 38 ms
+2021-06-22 20:23:39,623 [http-nio-8011-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-06-22 20:23:39,623 [http-nio-8011-exec-1] INFO  o.s.web.servlet.DispatcherServlet 497 - FrameworkServlet 'dispatcherServlet': initialization started
+2021-06-22 20:23:39,644 [http-nio-8011-exec-1] INFO  o.s.web.servlet.DispatcherServlet 512 - FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2021-06-22 20:26:34,882 [http-nio-8010-exec-2] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver 194 - Resolved exception caused by handler execution: org.springframework.web.bind.MissingServletRequestParameterException: Required Integer parameter 'pageNum' is not present
+2021-06-22 20:26:53,263 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:26:57,619 [http-nio-8010-exec-7] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:26:57,621 [http-nio-8010-exec-7] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:26:57,621 [http-nio-8010-exec-7] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:27:04,861 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:27:04,864 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:27:04,864 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:27:23,637 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:28:10,326 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext 588 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@5b94b04d: startup date [Tue Jun 22 20:28:10 CST 2021]; root of context hierarchy
+2021-06-22 20:28:10,430 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:28:10,446 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5c5813a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:28:10,801 [main] INFO  com.example.ProviderApplication 654 - No active profile set, falling back to default profiles: default
+2021-06-22 20:28:10,807 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63787180: startup date [Tue Jun 22 20:28:10 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5b94b04d
+2021-06-22 20:28:11,267 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 172 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-22 20:28:11,363 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 821 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2021-06-22 20:28:11,432 [main] INFO  o.s.cloud.context.scope.GenericScope 294 - BeanFactory id=2a3deb80-2e00-38ff-9fb6-742247023514
+2021-06-22 20:28:11,443 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:28:11,510 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$99ab7e3d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:28:11,583 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$b5c5813a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:28:11,893 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8010 (http)
+2021-06-22 20:28:11,900 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8010"]
+2021-06-22 20:28:11,908 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2021-06-22 20:28:11,908 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.35
+2021-06-22 20:28:11,910 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;";E:\mysql-5.7.19-winx64\bin";E:\maven\apache-maven-3.8.1\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;"E:\jdk1.8\jdk1.8.0_201\bin;";;.]
+2021-06-22 20:28:12,006 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2021-06-22 20:28:12,007 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 1200 ms
+2021-06-22 20:28:12,064 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 187 - Servlet dispatcherServlet mapped to [/]
+2021-06-22 20:28:12,067 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-06-22 20:28:12,067 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-06-22 20:28:12,067 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-06-22 20:28:12,067 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'requestContextFilter' to: [/*]
+2021-06-22 20:28:12,704 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.index()
+2021-06-22 20:28:12,705 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.admin()
+2021-06-22 20:28:12,705 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.login()
+2021-06-22 20:28:12,707 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/update],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.update(com.example.com.example.entity.User)
+2021-06-22 20:28:12,708 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/save],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.save(com.example.com.example.entity.User)
+2021-06-22 20:28:12,708 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findById(java.lang.Long)
+2021-06-22 20:28:12,708 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/prot],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.prot()
+2021-06-22 20:28:12,709 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/deleteById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.deleteById(java.lang.Long)
+2021-06-22 20:28:12,709 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findAll],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findAll(java.lang.Integer,java.lang.Integer)
+2021-06-22 20:28:12,710 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v3/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.oas.web.OpenApiControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:28:12,712 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2021-06-22 20:28:12,713 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/ui],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2021-06-22 20:28:12,713 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/security],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2021-06-22 20:28:12,714 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:28:12,716 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-06-22 20:28:12,716 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-06-22 20:28:12,863 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:28:12,863 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:28:12,865 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:28:12,866 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:28:12,926 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:28:13,067 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@63787180: startup date [Tue Jun 22 20:28:10 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5b94b04d
+2021-06-22 20:28:13,094 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2021-06-22 20:28:13,104 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:28:13,104 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:28:13,104 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:28:14,210 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2021-06-22 20:28:14,211 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-06-22 20:28:14,216 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-06-22 20:28:14,217 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-06-22 20:28:14,217 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-06-22 20:28:14,219 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-06-22 20:28:14,226 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-06-22 20:28:14,232 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=63787180,type=ConfigurationPropertiesRebinder]
+2021-06-22 20:28:14,235 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-06-22 20:28:14,239 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 0
+2021-06-22 20:28:14,247 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory 71 - Setting initial instance status as: STARTING
+2021-06-22 20:28:14,265 [main] INFO  c.netflix.discovery.DiscoveryClient 349 - Initializing Eureka in region us-east-1
+2021-06-22 20:28:14,574 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson
+2021-06-22 20:28:14,575 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson
+2021-06-22 20:28:14,633 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml
+2021-06-22 20:28:14,633 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml
+2021-06-22 20:28:14,721 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:28:14,893 [main] INFO  c.netflix.discovery.DiscoveryClient 958 - Disable delta property : false
+2021-06-22 20:28:14,894 [main] INFO  c.netflix.discovery.DiscoveryClient 959 - Single vip registry refresh property : null
+2021-06-22 20:28:14,894 [main] INFO  c.netflix.discovery.DiscoveryClient 960 - Force full registry fetch : false
+2021-06-22 20:28:14,894 [main] INFO  c.netflix.discovery.DiscoveryClient 961 - Application is null : false
+2021-06-22 20:28:14,894 [main] INFO  c.netflix.discovery.DiscoveryClient 962 - Registered Applications size is zero : true
+2021-06-22 20:28:14,894 [main] INFO  c.netflix.discovery.DiscoveryClient 964 - Application version is -1: true
+2021-06-22 20:28:14,894 [main] INFO  c.netflix.discovery.DiscoveryClient 1047 - Getting all instance registry info from the eureka server
+2021-06-22 20:28:14,977 [main] INFO  c.netflix.discovery.DiscoveryClient 1056 - The response status is 200
+2021-06-22 20:28:14,979 [main] INFO  c.netflix.discovery.DiscoveryClient 1264 - Starting heartbeat executor: renew interval is: 30
+2021-06-22 20:28:14,980 [main] INFO  c.n.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-22 20:28:14,982 [main] INFO  c.netflix.discovery.DiscoveryClient 449 - Discovery Client initialized at timestamp 1624364894982 with initial instances count: 4
+2021-06-22 20:28:14,989 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry 42 - Registering application PROVIDER with eureka with status UP
+2021-06-22 20:28:14,989 [main] INFO  c.netflix.discovery.DiscoveryClient 1299 - Saw local status change event StatusChangeEvent [timestamp=1624364894989, current=UP, previous=STARTING]
+2021-06-22 20:28:14,990 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 826 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8010: registering service...
+2021-06-22 20:28:14,993 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 2147483647
+2021-06-22 20:28:15,012 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 835 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8010 - registration status: 204
+2021-06-22 20:28:15,213 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,221 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,222 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,224 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,234 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,234 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,235 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,238 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,238 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,238 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:15,248 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8010"]
+2021-06-22 20:28:15,254 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2021-06-22 20:28:15,262 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8010 (http) with context path ''
+2021-06-22 20:28:15,263 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration 124 - Updating port to 8010
+2021-06-22 20:28:15,265 [main] INFO  com.example.ProviderApplication 59 - Started ProviderApplication in 5.61 seconds (JVM running for 6.516)
+2021-06-22 20:28:24,897 [main] INFO  o.s.c.a.AnnotationConfigApplicationContext 588 - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@37271612: startup date [Tue Jun 22 20:28:24 CST 2021]; root of context hierarchy
+2021-06-22 20:28:25,011 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:28:25,033 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f22fdd11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:28:25,401 [main] INFO  com.example.ProviderApplication2 654 - No active profile set, falling back to default profiles: default
+2021-06-22 20:28:25,408 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 588 - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1f3f02ee: startup date [Tue Jun 22 20:28:25 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@37271612
+2021-06-22 20:28:25,894 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 172 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-06-22 20:28:25,995 [main] INFO  o.s.b.f.s.DefaultListableBeanFactory 821 - Overriding bean definition for bean 'dataSource' with a different definition: replacing [Root bean: class [null]; scope=refresh; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=false; primary=false; factoryBeanName=org.springframework.boot.autoconfigure.jdbc.DataSourceConfiguration$Hikari; factoryMethodName=dataSource; initMethodName=null; destroyMethodName=(inferred); defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]] with [Root bean: class [org.springframework.aop.scope.ScopedProxyFactoryBean]; scope=; abstract=false; lazyInit=false; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodName=null; destroyMethodName=null; defined in BeanDefinition defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]]
+2021-06-22 20:28:26,065 [main] INFO  o.s.cloud.context.scope.GenericScope 294 - BeanFactory id=2a3deb80-2e00-38ff-9fb6-742247023514
+2021-06-22 20:28:26,075 [main] INFO  o.s.b.f.a.AutowiredAnnotationBeanPostProcessor 153 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2021-06-22 20:28:26,145 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d615da14] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:28:26,221 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 326 - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$f22fdd11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-06-22 20:28:26,536 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 91 - Tomcat initialized with port(s): 8011 (http)
+2021-06-22 20:28:26,544 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Initializing ProtocolHandler ["http-nio-8011"]
+2021-06-22 20:28:26,553 [main] INFO  o.a.catalina.core.StandardService 180 - Starting service [Tomcat]
+2021-06-22 20:28:26,553 [main] INFO  o.a.catalina.core.StandardEngine 180 - Starting Servlet Engine: Apache Tomcat/8.5.35
+2021-06-22 20:28:26,556 [localhost-startStop-1] INFO  o.a.c.core.AprLifecycleListener 180 - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\jdk1.8.0_201\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;";E:\mysql-5.7.19-winx64\bin";E:\maven\apache-maven-3.8.1\bin;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;"E:\jdk1.8\jdk1.8.0_201\bin;";;.]
+2021-06-22 20:28:26,655 [localhost-startStop-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring embedded WebApplicationContext
+2021-06-22 20:28:26,655 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader 296 - Root WebApplicationContext: initialization completed in 1247 ms
+2021-06-22 20:28:26,714 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean 187 - Servlet dispatcherServlet mapped to [/]
+2021-06-22 20:28:26,717 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'characterEncodingFilter' to: [/*]
+2021-06-22 20:28:26,718 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2021-06-22 20:28:26,718 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2021-06-22 20:28:26,718 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean 245 - Mapping filter: 'requestContextFilter' to: [/*]
+2021-06-22 20:28:27,392 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/index],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.index()
+2021-06-22 20:28:27,393 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/login],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.login()
+2021-06-22 20:28:27,393 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/admin],methods=[GET]}" onto public java.lang.String com.example.com.example.com.example.com.example.controller.HelloHandler.admin()
+2021-06-22 20:28:27,396 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/update],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.update(com.example.com.example.entity.User)
+2021-06-22 20:28:27,396 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/save],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.save(com.example.com.example.entity.User)
+2021-06-22 20:28:27,397 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findById(java.lang.Long)
+2021-06-22 20:28:27,397 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/findAll],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.findAll(java.lang.Integer,java.lang.Integer)
+2021-06-22 20:28:27,397 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/prot],methods=[GET]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.prot()
+2021-06-22 20:28:27,397 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/user/deleteById],methods=[POST]}" onto public com.example.com.example.result.Result com.example.com.example.com.example.com.example.controller.UserController.deleteById(java.lang.Long)
+2021-06-22 20:28:27,399 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v3/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.oas.web.OpenApiControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:28:27,401 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2021-06-22 20:28:27,402 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/ui],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2021-06-22 20:28:27,403 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/swagger-resources/configuration/security],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2021-06-22 20:28:27,403 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/v2/api-docs],methods=[GET],produces=[application/json || application/hal+json]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2ControllerWebMvc.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)
+2021-06-22 20:28:27,406 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2021-06-22 20:28:27,406 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping 550 - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2021-06-22 20:28:27,664 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:28:27,664 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:28:27,666 [main] WARN  c.n.c.sources.URLConfigurationSource 121 - No URLs will be polled as dynamic configuration sources.
+2021-06-22 20:28:27,667 [main] INFO  c.n.c.sources.URLConfigurationSource 122 - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2021-06-22 20:28:27,733 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:28:27,876 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter 588 - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@1f3f02ee: startup date [Tue Jun 22 20:28:25 CST 2021]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@37271612
+2021-06-22 20:28:27,903 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/] onto handler of type [class org.springframework.web.servlet.mvc.ParameterizableViewController]
+2021-06-22 20:28:27,917 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:28:27,918 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:28:27,918 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping 373 - Mapped URL path [/swagger-ui/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2021-06-22 20:28:29,088 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 433 - Registering beans for JMX exposure on startup
+2021-06-22 20:28:29,089 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'dataSource' has been autodetected for JMX exposure
+2021-06-22 20:28:29,094 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'refreshScope' has been autodetected for JMX exposure
+2021-06-22 20:28:29,094 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2021-06-22 20:28:29,094 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 895 - Bean with name 'environmentManager' has been autodetected for JMX exposure
+2021-06-22 20:28:29,098 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2021-06-22 20:28:29,104 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2021-06-22 20:28:29,110 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 675 - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=1f3f02ee,type=ConfigurationPropertiesRebinder]
+2021-06-22 20:28:29,114 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter 668 - Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2021-06-22 20:28:29,118 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 0
+2021-06-22 20:28:29,127 [main] INFO  o.s.c.n.eureka.InstanceInfoFactory 71 - Setting initial instance status as: STARTING
+2021-06-22 20:28:29,145 [main] INFO  c.netflix.discovery.DiscoveryClient 349 - Initializing Eureka in region us-east-1
+2021-06-22 20:28:29,460 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 70 - Using JSON encoding codec LegacyJacksonJson
+2021-06-22 20:28:29,460 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 71 - Using JSON decoding codec LegacyJacksonJson
+2021-06-22 20:28:29,518 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 80 - Using XML encoding codec XStreamXml
+2021-06-22 20:28:29,518 [main] INFO  c.n.d.p.DiscoveryJerseyProvider 81 - Using XML decoding codec XStreamXml
+2021-06-22 20:28:29,610 [main] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:28:29,782 [main] INFO  c.netflix.discovery.DiscoveryClient 958 - Disable delta property : false
+2021-06-22 20:28:29,782 [main] INFO  c.netflix.discovery.DiscoveryClient 959 - Single vip registry refresh property : null
+2021-06-22 20:28:29,782 [main] INFO  c.netflix.discovery.DiscoveryClient 960 - Force full registry fetch : false
+2021-06-22 20:28:29,782 [main] INFO  c.netflix.discovery.DiscoveryClient 961 - Application is null : false
+2021-06-22 20:28:29,782 [main] INFO  c.netflix.discovery.DiscoveryClient 962 - Registered Applications size is zero : true
+2021-06-22 20:28:29,782 [main] INFO  c.netflix.discovery.DiscoveryClient 964 - Application version is -1: true
+2021-06-22 20:28:29,782 [main] INFO  c.netflix.discovery.DiscoveryClient 1047 - Getting all instance registry info from the eureka server
+2021-06-22 20:28:29,861 [main] INFO  c.netflix.discovery.DiscoveryClient 1056 - The response status is 200
+2021-06-22 20:28:29,863 [main] INFO  c.netflix.discovery.DiscoveryClient 1264 - Starting heartbeat executor: renew interval is: 30
+2021-06-22 20:28:29,864 [main] INFO  c.n.discovery.InstanceInfoReplicator 60 - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2021-06-22 20:28:29,866 [main] INFO  c.netflix.discovery.DiscoveryClient 449 - Discovery Client initialized at timestamp 1624364909865 with initial instances count: 4
+2021-06-22 20:28:29,872 [main] INFO  o.s.c.n.e.s.EurekaServiceRegistry 42 - Registering application PROVIDER with eureka with status UP
+2021-06-22 20:28:29,872 [main] INFO  c.netflix.discovery.DiscoveryClient 1299 - Saw local status change event StatusChangeEvent [timestamp=1624364909872, current=UP, previous=STARTING]
+2021-06-22 20:28:29,874 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 826 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8011: registering service...
+2021-06-22 20:28:29,877 [main] INFO  o.s.c.s.DefaultLifecycleProcessor 356 - Starting beans in phase 2147483647
+2021-06-22 20:28:29,897 [DiscoveryClient-InstanceInfoReplicator-0] INFO  c.netflix.discovery.DiscoveryClient 835 - DiscoveryClient_PROVIDER/WIN-LKHF487FVMB:provider:8011 - registration status: 204
+2021-06-22 20:28:30,098 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,106 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,107 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Integer, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,109 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,119 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,119 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,119 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,122 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,123 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: String, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,123 [main] WARN  s.d.s.r.o.OperationImplicitParameterReader 170 - Unable to interpret the implicit parameter configuration with dataType: Long, dataTypeClass: class java.lang.Void
+2021-06-22 20:28:30,133 [main] INFO  o.a.coyote.http11.Http11NioProtocol 180 - Starting ProtocolHandler ["http-nio-8011"]
+2021-06-22 20:28:30,138 [main] INFO  o.a.tomcat.util.net.NioSelectorPool 180 - Using a shared selector for servlet write/read
+2021-06-22 20:28:30,147 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 206 - Tomcat started on port(s): 8011 (http) with context path ''
+2021-06-22 20:28:30,147 [main] INFO  o.s.c.n.e.s.EurekaAutoServiceRegistration 124 - Updating port to 8011
+2021-06-22 20:28:30,149 [main] INFO  com.example.ProviderApplication2 59 - Started ProviderApplication2 in 5.867 seconds (JVM running for 6.735)
+2021-06-22 20:28:43,618 [http-nio-8010-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-06-22 20:28:43,618 [http-nio-8010-exec-1] INFO  o.s.web.servlet.DispatcherServlet 497 - FrameworkServlet 'dispatcherServlet': initialization started
+2021-06-22 20:28:43,639 [http-nio-8010-exec-1] INFO  o.s.web.servlet.DispatcherServlet 512 - FrameworkServlet 'dispatcherServlet': initialization completed in 21 ms
+2021-06-22 20:28:43,653 [http-nio-8010-exec-1] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:28:43,655 [http-nio-8010-exec-1] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:28:43,655 [http-nio-8010-exec-1] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:28:46,395 [http-nio-8010-exec-2] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:28:46,395 [http-nio-8010-exec-2] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:28:46,395 [http-nio-8010-exec-2] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:28:49,711 [http-nio-8011-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] 180 - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2021-06-22 20:28:49,711 [http-nio-8011-exec-1] INFO  o.s.web.servlet.DispatcherServlet 497 - FrameworkServlet 'dispatcherServlet': initialization started
+2021-06-22 20:28:49,737 [http-nio-8011-exec-1] INFO  o.s.web.servlet.DispatcherServlet 512 - FrameworkServlet 'dispatcherServlet': initialization completed in 26 ms
+2021-06-22 20:28:49,751 [http-nio-8011-exec-1] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:28:49,753 [http-nio-8011-exec-1] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:28:49,753 [http-nio-8011-exec-1] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:28:51,552 [http-nio-8011-exec-2] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:28:51,553 [http-nio-8011-exec-2] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:28:51,553 [http-nio-8011-exec-2] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:30:13,119 [http-nio-8011-exec-6] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:30:13,121 [http-nio-8011-exec-6] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:30:13,121 [http-nio-8011-exec-6] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:30:13,130 [http-nio-8011-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] 182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [index]: would dispatch back to the current handler URL [/index] again. Check your ViewResolver setup! (Hint: This may be the com.example.result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [index]: would dispatch back to the current handler URL [/index] again. Check your ViewResolver setup! (Hint: This may be the com.example.result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:209)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:147)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:315)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:981)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:873)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-22 20:32:29,199 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:32:29,199 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:32:29,199 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:32:29,200 [http-nio-8011-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] 182 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Circular view path [index]: would dispatch back to the current handler URL [/index] again. Check your ViewResolver setup! (Hint: This may be the com.example.result of an unspecified view, due to default view name generation.)] with root cause
+javax.servlet.ServletException: Circular view path [index]: would dispatch back to the current handler URL [/index] again. Check your ViewResolver setup! (Hint: This may be the com.example.result of an unspecified view, due to default view name generation.)
+	at org.springframework.web.servlet.view.InternalResourceView.prepareForRendering(InternalResourceView.java:209)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:147)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:315)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1325)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1069)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1008)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:925)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:981)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:873)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:635)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:858)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:109)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:493)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:800)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:806)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1498)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2021-06-22 20:33:14,898 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:33:29,785 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:37:13,763 [http-nio-8010-exec-10] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:37:13,764 [http-nio-8010-exec-10] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:37:13,764 [http-nio-8010-exec-10] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:37:14,503 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:37:14,504 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:37:14,504 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:37:14,951 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:37:14,952 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:37:14,952 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:37:27,379 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 20:37:27,379 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 20:37:27,379 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 20:38:14,900 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:38:29,787 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:43:14,901 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:43:29,788 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:48:14,903 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:48:29,790 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:53:14,904 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:53:29,791 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:58:14,906 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 20:58:29,794 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:03:14,908 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:03:29,795 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:08:14,911 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:08:29,799 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:09:10,063 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:09:10,092 [http-nio-8010-exec-9] INFO  com.zaxxer.hikari.HikariDataSource 110 - HikariPool-1 - Starting...
+2021-06-22 21:09:10,199 [http-nio-8010-exec-9] INFO  com.zaxxer.hikari.HikariDataSource 123 - HikariPool-1 - Start completed.
+2021-06-22 21:09:10,219 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:09:10,219 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:45,893 [http-nio-8011-exec-10] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:45,893 [http-nio-8011-exec-10] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:45,893 [http-nio-8011-exec-10] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:47,970 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:47,970 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:47,970 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:48,525 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:48,526 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:48,526 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:49,600 [http-nio-8010-exec-10] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:49,600 [http-nio-8010-exec-10] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:49,600 [http-nio-8010-exec-10] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:49,787 [http-nio-8011-exec-6] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:49,788 [http-nio-8011-exec-6] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:49,788 [http-nio-8011-exec-6] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:49,962 [http-nio-8010-exec-4] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:49,963 [http-nio-8010-exec-4] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:49,963 [http-nio-8010-exec-4] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:50,125 [http-nio-8011-exec-5] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:50,125 [http-nio-8011-exec-5] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:50,125 [http-nio-8011-exec-5] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:50,292 [http-nio-8010-exec-2] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:50,293 [http-nio-8010-exec-2] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:50,293 [http-nio-8010-exec-2] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:50,452 [http-nio-8011-exec-1] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:50,452 [http-nio-8011-exec-1] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:50,453 [http-nio-8011-exec-1] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:50,616 [http-nio-8010-exec-1] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:50,616 [http-nio-8010-exec-1] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:50,616 [http-nio-8010-exec-1] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:50,770 [http-nio-8011-exec-9] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:50,770 [http-nio-8011-exec-9] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:50,770 [http-nio-8011-exec-9] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:10:50,908 [http-nio-8010-exec-7] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:10:50,908 [http-nio-8010-exec-7] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:10:50,908 [http-nio-8010-exec-7] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:13:14,912 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:13:29,801 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:18:14,913 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:18:29,803 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:23:14,915 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:23:29,804 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:28:14,917 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:28:29,806 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:33:14,920 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:33:29,808 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:38:14,922 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:38:29,810 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:38:46,058 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:46,058 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:46,058 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:46,565 [http-nio-8011-exec-8] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:46,565 [http-nio-8011-exec-8] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:46,565 [http-nio-8011-exec-8] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:46,978 [http-nio-8010-exec-6] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:46,978 [http-nio-8010-exec-6] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:46,979 [http-nio-8010-exec-6] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:47,156 [http-nio-8011-exec-2] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:47,157 [http-nio-8011-exec-2] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:47,157 [http-nio-8011-exec-2] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:47,308 [http-nio-8010-exec-8] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:47,308 [http-nio-8010-exec-8] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:47,308 [http-nio-8010-exec-8] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:47,471 [http-nio-8011-exec-4] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:47,471 [http-nio-8011-exec-4] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:47,471 [http-nio-8011-exec-4] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:47,634 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:47,634 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:47,635 [http-nio-8010-exec-3] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:47,793 [http-nio-8011-exec-10] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:47,793 [http-nio-8011-exec-10] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:47,793 [http-nio-8011-exec-10] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:47,949 [http-nio-8010-exec-10] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:47,950 [http-nio-8010-exec-10] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:47,950 [http-nio-8010-exec-10] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:48,104 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:48,104 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:48,105 [http-nio-8011-exec-7] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:48,263 [http-nio-8010-exec-4] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:48,264 [http-nio-8010-exec-4] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:48,264 [http-nio-8010-exec-4] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:48,426 [http-nio-8011-exec-6] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:48,426 [http-nio-8011-exec-6] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:48,427 [http-nio-8011-exec-6] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:48,588 [http-nio-8010-exec-2] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:48,588 [http-nio-8010-exec-2] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:48,588 [http-nio-8010-exec-2] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:48,749 [http-nio-8011-exec-5] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:48,749 [http-nio-8011-exec-5] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:48,749 [http-nio-8011-exec-5] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:48,906 [http-nio-8010-exec-1] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:48,906 [http-nio-8010-exec-1] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:48,907 [http-nio-8010-exec-1] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:49,068 [http-nio-8011-exec-1] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:49,068 [http-nio-8011-exec-1] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:49,068 [http-nio-8011-exec-1] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:49,221 [http-nio-8010-exec-7] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:49,222 [http-nio-8010-exec-7] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:49,222 [http-nio-8010-exec-7] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:49,373 [http-nio-8011-exec-9] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:49,373 [http-nio-8011-exec-9] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:49,373 [http-nio-8011-exec-9] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:49,510 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:49,510 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:49,511 [http-nio-8010-exec-9] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:49,670 [http-nio-8011-exec-3] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:49,671 [http-nio-8011-exec-3] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:49,671 [http-nio-8011-exec-3] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:38:49,783 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 30 - 方法开始调用前
+2021-06-22 21:38:49,783 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 59 - Around
+2021-06-22 21:38:49,783 [http-nio-8010-exec-5] INFO  com.example.config.AopConfig 41 - 方法开始调用之后
+2021-06-22 21:43:14,924 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:43:29,813 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:48:14,927 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:48:29,815 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:53:14,930 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:53:29,817 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:58:14,932 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 21:58:29,819 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:03:14,935 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:03:29,821 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:08:14,936 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:08:29,822 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:13:14,938 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:13:29,824 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:18:14,941 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:18:29,826 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:23:14,944 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:23:29,828 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:28:14,946 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:28:29,830 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:33:14,948 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:33:29,832 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:38:14,951 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:38:29,834 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:43:14,953 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:43:29,835 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:48:14,954 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:48:29,837 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:53:14,955 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:53:29,840 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:58:14,957 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 22:58:29,842 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:03:14,959 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:03:29,844 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:08:14,961 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:08:29,845 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:13:14,963 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:13:29,847 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:18:14,965 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:18:29,849 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:23:14,968 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:23:29,852 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:28:14,970 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration
+2021-06-22 23:28:29,854 [AsyncResolver-bootstrap-executor-0] INFO  c.n.d.s.r.aws.ConfigClusterResolver 43 - Resolving eureka endpoints via configuration

@@ -1,0 +1,28 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: resttemplate # 当前服务注册在 Eureka Server 上的名称。
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/study?useUnicode=true&characterEncoding=utf-8&useSSL=true&serverTimezone=UTC
+    driver-class-name: com.mysql.jdbc.Driver
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka # 注册中心的访问地址。
+  instance:
+    prefer-ip-address: true # 是否将当前服务的 IP 注册到 Eureka Server。
+
+mybatis:
+  mapper-locations: classpath:mapper/*Mapper.xml
+  type-aliases-package: com.example.com.example.entity
+
+#配置分页插件pagehelper
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
