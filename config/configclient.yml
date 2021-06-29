@@ -6,4 +6,5 @@ eureka:
       defaultZone: http://localhost:8761/eureka/
 spring:
   application:
-    name: configclient123
+    name: configclient
+foo: 社会我强哥    
